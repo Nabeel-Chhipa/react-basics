@@ -1,11 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
-import Greeting from './components/Greeting';
+import logo from "./logo.svg";
+import "./App.css";
+import Greeting from "./components/Greeting";
+import Message from "./components/Message";
+import EventHandler from "./components/EventHandler";
 
 function App() {
   return (
     <div>
-      <Greeting name='Nabeel' age='26'>
+      <EventHandler />
+
+      {/* <Message /> */}
+
+      {/* <Greeting name='Nabeel' age='26'>
         <p>Web Developer</p>
         <button>Click Here</button>
       </Greeting>
@@ -14,7 +20,7 @@ function App() {
       </Greeting>
       <Greeting name='Saad' age='29'>
         <p>IT Network Assistance</p>
-      </Greeting>
+      </Greeting> */}
     </div>
   );
 }
