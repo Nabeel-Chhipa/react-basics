@@ -5,11 +5,17 @@ import Message from "./components/Message";
 import EventHandler from "./components/EventHandler";
 import ParentComponent from "./components/ParentComponent";
 import UserGreeting from "./components/UserGreeting";
+import NameList from "./components/NameList";
+import Stylesheet from "./components/Stylesheet";
 
 function App() {
   return (
     <div>
-      <UserGreeting />
+      <Stylesheet />
+
+      {/* <NameList /> */}
+
+      {/* <UserGreeting /> */}
 
       {/* <ParentComponent /> */}
 
