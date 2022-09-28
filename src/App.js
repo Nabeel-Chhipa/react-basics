@@ -4,11 +4,14 @@ import Greeting from "./components/Greeting";
 import Message from "./components/Message";
 import EventHandler from "./components/EventHandler";
 import ParentComponent from "./components/ParentComponent";
+import UserGreeting from "./components/UserGreeting";
 
 function App() {
   return (
     <div>
-      <ParentComponent />
+      <UserGreeting />
+
+      {/* <ParentComponent /> */}
 
       {/* <EventHandler /> */}
 
