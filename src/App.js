@@ -3,11 +3,14 @@ import "./App.css";
 import Greeting from "./components/Greeting";
 import Message from "./components/Message";
 import EventHandler from "./components/EventHandler";
+import ParentComponent from "./components/ParentComponent";
 
 function App() {
   return (
     <div>
-      <EventHandler />
+      <ParentComponent />
+
+      {/* <EventHandler /> */}
 
       {/* <Message /> */}
 
