@@ -1,3 +1,29 @@
 .primary {
-    color: blueviolet;
+  color: blueviolet;
+}
+.flexBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexBox input {
+  margin: 5px 0px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: 1px solid #990;
+  width: 500px;
+  text-transform: capitalize;
+  color: #000;
+}
+
+.flexBox input:focus-visible {
+  outline: none;
+}
+
+.flexBox input[type="submit"] {
+  width: 100px;
+  letter-spacing: 2px;
+  cursor: pointer;
 }

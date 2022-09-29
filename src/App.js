@@ -9,11 +9,14 @@ import NameList from "./components/NameList";
 import Stylesheet from "./components/Stylesheet";
 import Form from "./components/Form";
 import PostList from "./components/PostList";
+import Postform from "./components/Postform";
 
 function App() {
   return (
     <div>
-      <PostList />
+      <Postform />
+
+      {/* <PostList /> */}
 
       {/* <Form /> */}
 
